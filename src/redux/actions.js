@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const deploy_url = 'https://pi-countries-luciano.herokuapp.com'
+const deploy_url = 'http://localhost:3001' /*'https://pi-countries-luciano.herokuapp.com'*/
 //
 export const showAllCountries = () => {
   return (dispatch) => {
